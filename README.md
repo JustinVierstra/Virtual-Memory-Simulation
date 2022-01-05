@@ -1,6 +1,6 @@
 # Virtual-Memory-Simulation
 
-Simulating a virtual memory system using two page replacement algorithms. Least Recently Used (LRU) and Second-Chance (clock).
+Simulating a virtual memory system using two page replacement algorithms. Least Recently Used (LRU) and Second-Chance (Clock).
 
 ```
 COMPILE: gcc proj4.c -o proj4
