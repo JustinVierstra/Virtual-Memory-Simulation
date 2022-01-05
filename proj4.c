@@ -222,9 +222,9 @@ void CLOCK(){
     //}
   }
   //printf("\n");
-  for(y=0; y<frameTotal;y++){
-    printf("frame[%d]: %d %d\n",y, frame[y], referenceBit[y]);
-  }
+  //for(y=0; y<frameTotal;y++){
+  //  printf("frame[%d]: %d %d\n",y, frame[y], referenceBit[y]);
+  //}
   //printf("\n");
   printf("%d page faults\n", faults);
 }
