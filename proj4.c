@@ -93,11 +93,11 @@ void LRU(){
         //printf("%d> frame[%d]: %d\n",i-1, y, frame[y]);
       }
     }
-    for(y=0; y<frameTotal;y++){
-      if(i>0){
-        //printf("%d> usedLast[%d]: %d\n",i-1, y, usedLast[y]);
-      }
-    }
+    //for(y=0; y<frameTotal;y++){
+    //  if(i>0){
+    //    printf("%d> usedLast[%d]: %d\n",i-1, y, usedLast[y]);
+    //  }
+    //}
 
     do{
       if(frame[frameCount] == pages[i]){
@@ -147,9 +147,9 @@ void LRU(){
     }
   }
 
-  for(y=0; y<frameTotal;y++){
+  //for(y=0; y<frameTotal;y++){
     //printf("frame[%d]: %d\n",y, frame[y]);
-  }
+  //}
 
   printf("%d page faults\n", faults);
 }
@@ -215,11 +215,11 @@ void CLOCK(){
       }
     }
 
-    for(y=0; y<frameTotal;y++){
-      if(referenceBit[y]!=-1){
+    //for(y=0; y<frameTotal;y++){
+      //if(referenceBit[y]!=-1){
         //printf("%d> frame[%d]: %d %d\n",i-1, y, frame[y], referenceBit[y]);
-      }
-    }
+      //}
+    //}
   }
   //printf("\n");
   for(y=0; y<frameTotal;y++){
