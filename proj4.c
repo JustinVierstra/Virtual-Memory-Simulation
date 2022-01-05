@@ -148,7 +148,7 @@ void LRU(){
   }
 
   //for(y=0; y<frameTotal;y++){
-    //printf("frame[%d]: %d\n",y, frame[y]);
+  //  printf("frame[%d]: %d\n",y, frame[y]);
   //}
 
   printf("%d page faults\n", faults);
@@ -216,9 +216,9 @@ void CLOCK(){
     }
 
     //for(y=0; y<frameTotal;y++){
-      //if(referenceBit[y]!=-1){
-        //printf("%d> frame[%d]: %d %d\n",i-1, y, frame[y], referenceBit[y]);
-      //}
+    //  if(referenceBit[y]!=-1){
+    //    printf("%d> frame[%d]: %d %d\n",i-1, y, frame[y], referenceBit[y]);
+    //  }
     //}
   }
   //printf("\n");
